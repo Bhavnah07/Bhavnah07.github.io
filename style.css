@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    background-color: #E2CFEA;
+}
+
+h2 {
+    color: blue;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    color: maroon;
+    text-align: justify;
+    line-height: 2;
+}
+
+.heading {
+    color: teal;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.contactform {
+    font-weight: bold;
+}
+
+/* List Styles */
+#list-teal {
+    font-family: cursive;
+    text-transform: uppercase;
+}
+
+.list-green li {
+    color: green;
+}
+
+#list-blue li {
+    color: blue;
+}
+
+/* Section Styles */
+#aboutsection,
+#skillssection,
+#accomplishmentssection,
+#contactsection {
+    margin: 50px;
+}
+
+#contactsection {
+    background-color: #C492B1;
+}
+
+/* Heading Styles */
+.heading2 {
+    color: steelblue;
+    text-align: center;
+}
+
+#Bhavnah {
+    font-family: Verdana, sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+/* Table Styles */
+table, th, td {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+/* Figure Styles */
+figure {
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center;     /* Centers the image vertically */
+}
+
+img {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+}
+
+/* Topnav Styles */
+.topnav .icon {
+    display: none;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+    .topnav a {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon */
+    .topnav.responsive {
+        position: fixed;
+    }
+
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
